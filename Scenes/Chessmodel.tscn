@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxn4uj21qv808"]
+
+[ext_resource type="Script" path="res://Scripts/ChessModel.cs" id="1_katw8"]
+
+[node name="ChessModel" type="Node2D"]
+position = Vector2(576, 364)
+script = ExtResource("1_katw8")
