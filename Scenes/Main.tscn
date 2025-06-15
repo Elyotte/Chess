@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3ahldt3omwwx"]
+
+[ext_resource type="PackedScene" uid="uid://bxn4uj21qv808" path="res://Scenes/ChessView.tscn" id="1_f5nau"]
+[ext_resource type="Script" path="res://Scripts/ChessViewTopDown.cs" id="2_3lfki"]
+
+[node name="Main" type="Node"]
+
+[node name="ChessModel" parent="." instance=ExtResource("1_f5nau")]
+position = Vector2(388, 212)
+script = ExtResource("2_3lfki")
