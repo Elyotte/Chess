@@ -54,7 +54,7 @@ public partial class ChessModel : Node2D
                 lSprite.Texture = cellTextures;
                 lSprite.Position = new Vector2(CELLSIZE * x, CELLSIZE * y );
                 int color = gridColor[x, y];
-                lSprite.Modulate = new Color(color,color,color);
+                lSprite.Modulate = GlobalMethods.ReturnColor(color);
             }
         }
     }
